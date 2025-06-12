@@ -54,5 +54,5 @@ else:
 
 # 使用 pandas 顯示表格
 df = pd.DataFrame(u_new, index=[f"x={xi:.2f}" for xi in x], columns=[f"y={yj:.2f}" for yj in y])
-print("數值表格：\n")
+print("數值表格:")
 print(df)
